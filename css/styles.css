@@ -26,13 +26,14 @@ body {
 
 .nav-top {
   position: absolute;
-  top: 10px; /* Shift the navigation to the top of the banner */
+  top: 0; /* Move the navigation to the top of the banner */
   width: 100%;
   display: flex;
   justify-content: center;
   margin: 0;
   padding: 0;
   list-style: none;
+  background-color: rgba(0, 0, 0, 0.7); /* Optional: background to improve readability */
 }
 
 .nav-top li {
@@ -51,12 +52,12 @@ body {
   font-weight: bold;
 }
 
-/* Center the title in the middle of the banner */
+/* Center the title in the middle of the banner below the nav links */
 .banner-title {
   position: absolute;
-  top: 50%;
+  top: 50%; /* Center vertically relative to the banner */
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -30%); /* Adjust position below the nav links */
   color: #feef00;
   font-family: 'Cyberpunk', sans-serif;
   letter-spacing: 0.2em;
