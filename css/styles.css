@@ -75,6 +75,12 @@ body.resume-background {
   white-space: nowrap;
 }
 
+.main-content-center {
+  text-align: center; /* Centers the text */
+  max-width: 800px; /* Restrict the width for better readability */
+  margin: 20px auto; /* Centers the section horizontally and adds some margin above and below */
+}
+
 /* Resume container with white background */
 .resume-container {
   background-color: white; /* Plain white background for the resume section */
