@@ -128,7 +128,7 @@ a:hover {
 
 /* Checkmarks in teal color */
 .checkmark {
-  color: teal; /* Teal color for checkmarks */
+  color: rgb(0, 255, 255); /* Teal color for checkmarks */
 }
 
 .main-title {
@@ -149,4 +149,17 @@ a:hover {
   section {
     padding: 1rem;
   }
+}
+
+.content-section p {
+  margin-left: 20px; /* Add space on the left to shift text to the right */
+}
+
+.video-container {
+  text-align: center; /* Ensure the container is centered */
+}
+
+.video-container iframe {
+  display: block;
+  margin: 0 auto; /* Center the iframe horizontally */
 }
