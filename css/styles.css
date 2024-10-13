@@ -5,7 +5,7 @@
 
 body {
   font-family: 'Arial', sans-serif;
-  color: black; /* Updated text color to black */
+  color: black; /* Set text color to black */
   line-height: 1.6;
   margin: 0;
   padding: 0;
@@ -67,13 +67,14 @@ body {
   white-space: nowrap; /* Ensure the title stays on a single line */
 }
 
-/* Content section with off-white background */
-.content-section {
-  background-color: rgba(255, 255, 255, 0.8); /* Off-white background */
+/* Resume container with white background */
+.resume-container {
+  background-color: white; /* Plain white background for the resume section */
   padding: 2rem;
   margin: 2rem auto;
   max-width: 80%;
   border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add slight shadow for elevation */
 }
 
 .fixed-layout {
