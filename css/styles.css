@@ -1,26 +1,16 @@
-@font-face { 
-  font-family: 'Cyberpunk';
-  src: url('../fonts/Cyberpunk.otf') format('opentype');
-}
-
 /* General body styling for index.html and video_game_photography.html */
 body {
   font-family: 'Arial', sans-serif;
-  color: yellow; /* Change text color to yellow */
+  color: yellow;
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  background: url('../images/background.gif') no-repeat center center fixed; /* Default background for non-resume pages */
+  background: url('../images/background.gif') no-repeat center center fixed;
   background-size: cover;
-  text-shadow: 0 0 8px rgba(0, 0, 0, 0.8); /* Adds a black halo effect behind the yellow text */
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
 }
 
-/* Specific background for resume.html only */
-body.resume-background {
-  background: url('../images/clouds.gif') no-repeat center center fixed; /* Apply clouds.gif background */
-  background-size: cover;
-}
-
+/* Banner image and title adjustments */
 .banner {
   position: relative;
   width: 100%;
@@ -55,10 +45,7 @@ body.resume-background {
   color: rgb(0, 225, 255);
   padding: 0.5rem 1rem;
   display: block;
-}
-
-.nav-top li a {
-  font-size: calc(2vw + 0.5rem); /* Adjust for smaller screens */
+  font-size: calc(2vw + 0.5rem);
 }
 
 .nav-top li a:hover {
@@ -77,64 +64,44 @@ body.resume-background {
   letter-spacing: 0.1em;
   text-align: center;
   z-index: 2;
-  font-size: clamp(1.5rem, 3vw, 2.5rem); /* Smaller, more controlled size */
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
   white-space: nowrap;
 }
 
-/* Resume container with white background */
-.resume-container {
-  background-color: white; /* Plain white background for the resume section */
-  padding: 2rem;
-  margin: 2rem auto;
-  max-width: 80%;
-  border-radius: 0.5rem;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add slight shadow for elevation */
+/* Image container for side-by-side images */
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem; /* Adds space between images */
 }
 
-.fixed-layout {
-  max-width: 760px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 1rem auto;
+.image-container img {
+  width: 48%; /* Ensure images take equal space */
   border-radius: 0.5rem;
 }
 
-a {
-  color: #007BFF;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-  color: #0056b3;
-}
-
-/* Cyberpunk font styles */
-.cyberpunk-font,
-.cyberpunk-font-og {
-  font-family: 'Cyberpunk' !important;
-  text-transform: uppercase;
-  font-size: clamp(1.5rem, 3vw, 2.5rem); /* Reduced max size to avoid overflow */
-  color: #feef00;
-  text-shadow: #46dffb 1px 1px, #45aefb 2px 2px;
-}
-
-/* Checkmarks in teal color */
-.checkmark {
-  color: teal; /* Teal color for checkmarks */
-}
-
+/* Styling the title in the main body */
 .main-title {
-  font-style: italic; /* Italics for section titles */
-  color: black; /* Black color for titles */
+  font-weight: bold;
+  font-style: italic;
+  color: teal;
+  text-decoration: underline;
+  font-size: 1.8rem;
 }
 
+/* Adjust video container to be more moderately sized */
+.video-container {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.video-container iframe {
+  width: 60%; /* Adjust the width to a moderate size */
+  height: auto;
+}
+
+/* Responsive design for smaller screens */
 @media (max-width: 768px) {
   .nav-top {
     flex-direction: column;
@@ -147,5 +114,17 @@ a:hover {
 
   section {
     padding: 1rem;
+  }
+
+  .image-container {
+    flex-direction: column; /* Stack images on top of each other */
+  }
+
+  .image-container img {
+    width: 100%;
+  }
+
+  .video-container iframe {
+    width: 100%; /* Full width for smaller screens */
   }
 }
