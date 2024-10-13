@@ -60,9 +60,11 @@ body {
   transform: translate(-50%, -50%);
   color: #feef00;
   font-family: 'Cyberpunk', sans-serif;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.1em;
   text-align: center;
   z-index: 2;
+  font-size: 6vw; /* Responsive title size based on viewport width */
+  white-space: nowrap; /* Ensure the title stays on a single line */
 }
 
 section {
@@ -102,7 +104,7 @@ a:hover {
 .cyberpunk-font-og {
   font-family: 'Cyberpunk' !important;
   text-transform: uppercase;
-  font-size: 3em;
+  font-size: 6vw; /* Responsive title size */
   color: #feef00;
   text-shadow: #46dffb 1px 1px, #45aefb 2px 2px;
 }
