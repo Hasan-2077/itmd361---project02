@@ -172,3 +172,14 @@ a:hover {
   border-radius: 0.5rem;   /* Rounded corners */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add slight shadow for elevation */
 }
+
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.image-container img {
+  width: 48%;
+  border-radius: 0.5rem;
+}
