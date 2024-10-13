@@ -1,7 +1,6 @@
-@font-face {
+@font-face { 
   font-family: 'Cyberpunk';
   src: url('../fonts/Cyberpunk.otf') format('opentype');
-
 }
 
 body {
@@ -10,7 +9,7 @@ body {
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  background-color: #333; /* Remove the white background */
 }
 
 ul {
@@ -23,7 +22,7 @@ ul {
 }
 
 ul li {
-  margin: 0 1rem;
+  margin: 0 1.5rem; /* Increased margin to center the icons better */
 }
 
 ul li a {
@@ -48,7 +47,7 @@ section {
   padding: 2rem;
   margin: 2rem auto;
   max-width: 80%;
-  background-color: white;
+  background-color: transparent; /* Remove background color */
   border-radius: 0.5rem;
 }
 
@@ -81,143 +80,10 @@ a:hover {
 .cyberpunk-font-og {
   font-family: 'Cyberpunk' !important;
   text-transform: uppercase;
-  letter-spacing: -.25em;
+  letter-spacing: -.15em; /* Slight adjustment to letter spacing */
+  font-size: 3em; /* Increased font size for better visibility */
   color: #feef00;
   text-shadow: #46dffb 1px 1px, #45aefb 2px 2px;
-}
-
-.cyberpunk-font .c,
-.cyberpunk-font-og .c {
-  font-style: normal;
-  font-size: 2em;
-  position: relative;
-  top: -.2em;
-}
-
-.cyberpunk-font .p,
-.cyberpunk-font-og .p {
-  font-style: normal;
-  font-size: 2em;
-  letter-spacing: -.45em;
-  position: relative;
-  bottom: -.25em;
-  left: -.15em;
-}
-
-@media (max-width: 1000px) {
-  ul {
-      flex-direction: column;
-      align-items: center;
-  }
-
-  ul li {
-      margin: 0.5rem 0;
-  }
-
-  section {
-      padding: 1rem;
-  }
-}
-
-
-body {
-  font-family: 'Arial', sans-serif;
-  color: #444;
-  line-height: 1.6;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  background-color: #333;
-}
-
-ul li {
-  margin: 0 1rem;
-}
-
-ul li a {
-  text-decoration: none;
-  color: white;
-  padding: 0.5rem 1rem;
-  display: block;
-}
-
-ul li a:hover {
-  color: #007BFF;
-  font-weight: bold;
-}
-
-h1, h2 {
-  color: #333;
-  text-align: center;
-  margin-bottom: 1.5rem;
-}
-
-section {
-  padding: 2rem;
-  margin: 2rem auto;
-  max-width: 80%;
-  background-color: white;
-  border-radius: 0.5rem;
-}
-
-.fixed-layout {
-  max-width: 760px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 1rem auto;
-  border-radius: 0.5rem;
-}
-
-a {
-  color: #007BFF;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-  color: #0056b3;
-}
-
-/* Cyberpunk font styles */
-.cyberpunk-font,
-.cyberpunk-font-og {
-  font-family: 'Cyberpunk' !important;
-  text-transform: uppercase;
-  letter-spacing: -.25em;
-  color: #feef00;
-  text-shadow: #46dffb 1px 1px, #45aefb 2px 2px;
-}
-
-.cyberpunk-font .c,
-.cyberpunk-font-og .c {
-  font-style: normal;
-  font-size: 2em;
-  position: relative;
-  top: -.2em;
-}
-
-.cyberpunk-font .p,
-.cyberpunk-font-og .p {
-  font-style: normal;
-  font-size: 2em;
-  letter-spacing: -.45em;
-  position: relative;
-  bottom: -.25em;
-  left: -.15em;
 }
 
 @media (max-width: 1000px) {
