@@ -16,6 +16,11 @@ body.resume-background {
   background-size: cover;
 }
 
+body.index-background {
+  background: url('../images/background.gif') no-repeat center center fixed;
+  background-size: cover;
+}
+
 .banner {
   position: relative;
   width: 100%;
