@@ -8,22 +8,28 @@
 </head>
 <body>
 
-  <!-- Navigation List -->
-  <ul>
-    <li><a href="index.html">Main</a></li>
-    <li><a href="resume.html">Resume</a></li>
-    <li><a href="video_game_photography.html">Video Game Photography</a></li>
-  </ul>
+  <!-- Banner Image -->
+  <div class="banner">
+    <img src="images/banner.jpg" alt="Banner Image">
 
-  <!-- In Game Photography Section (Fluid Layout) -->
-  <section>
-    <h1>In Game Photography</h1>
+    <!-- Navigation List at the top of the banner -->
+    <ul class="nav-top">
+      <li><a href="index.html">Main</a></li>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a href="video_game_photography.html">Video Game Photography</a></li>
+    </ul>
 
+    <!-- Title in the center of the banner below the nav links -->
+    <h1 class="cyberpunk-font-og banner-title">In Game Photography</h1>
+  </div>
+
+  <!-- Main Content Section (Fluid Layout) -->
+  <section class="content-section">
     <!-- Displaying Images -->
     <img src="images/photo1.jpg" alt="High-resolution in-game shot of modded car showcasing dynamic lighting and weather effects in Cyberpunk_2077.">
     <img src="images/photo2.jpg" alt="High-resolution in-game photo of modded car capturing detailed textures and depth of field effects in Cyberpunk_2077.">
 
-    <h2>Tools and How To Use the Tools</h2>
+    <h2 class="main-title">Tools and How To Use the Tools</h2>
     <p>The two images above are photos that I took using Otis_inf photomode tool and mods for this game that can be found in Nexus Mods.</p>
     <p>Otis_inf tool is basically a photo-mode injection tool which runs while the game is running in order to work together. After injecting this tool into the game file, I can then change the weather, lighting, light effects, shading, and other miscellaneous aspects. I can also enable a virtual camera that follows the mouse cursor, allowing me to choose an appropriate angle to take my picture. Finally, the last thing I do before I take my shot is hot sampling the image frame, which is basically rendering the image into a higher resolution than the native monitor resolution in order to achieve a high-resolution image of the final picture.</p>
     <p>Besides the injection tool, I also have to use an app called Reshade where I can manipulate in-game assets such as image sharpening, color saturation, realistic exposure, and depth of field (DOF) among many others.</p>
@@ -31,7 +37,7 @@
   </section>
 
   <!-- YouTube Video Section -->
-  <section>
+  <section class="content-section">
     <p>Here is a video from YouTuber Shadria, who gives an incredible tutorial on using Otis_inf in Cyberpunk 2077 for those interested!</p>
     <iframe width="100%" height="auto" src="https://www.youtube.com/embed/eHE1PJhtKm0" allowfullscreen></iframe>
   </section>
