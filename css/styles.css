@@ -26,12 +26,12 @@ body {
 
 .nav-top {
   position: absolute;
-  top: 0; /* Move the navigation to the top of the banner */
+  top: 0;
   width: 100%;
   display: flex;
   justify-content: center;
   margin: 0;
-  padding: 10px 0; /* Add some padding */
+  padding: 10px 0;
   list-style: none;
   background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
 }
@@ -55,7 +55,7 @@ body {
 /* Center the title in the middle of the banner below the nav links */
 .banner-title {
   position: absolute;
-  top: 50%; /* Center vertically relative to the banner */
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #feef00;
@@ -63,7 +63,7 @@ body {
   letter-spacing: 0.1em;
   text-align: center;
   z-index: 2;
-  font-size: 6vw; /* Responsive title size based on viewport width */
+  font-size: clamp(2rem, 5vw, 4rem); /* Font size scales between 2rem and 4rem */
   white-space: nowrap; /* Ensure the title stays on a single line */
 }
 
@@ -104,7 +104,7 @@ a:hover {
 .cyberpunk-font-og {
   font-family: 'Cyberpunk' !important;
   text-transform: uppercase;
-  font-size: 6vw; /* Responsive title size */
+  font-size: clamp(2rem, 5vw, 4rem); /* Font size scales between 2rem and 4rem */
   color: #feef00;
   text-shadow: #46dffb 1px 1px, #45aefb 2px 2px;
 }
