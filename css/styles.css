@@ -31,9 +31,9 @@ body {
   display: flex;
   justify-content: center;
   margin: 0;
-  padding: 0;
+  padding: 10px 0; /* Add some padding */
   list-style: none;
-  background-color: rgba(0, 0, 0, 0.7); /* Optional: background to improve readability */
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
 }
 
 .nav-top li {
@@ -57,7 +57,7 @@ body {
   position: absolute;
   top: 50%; /* Center vertically relative to the banner */
   left: 50%;
-  transform: translate(-50%, -30%); /* Adjust position below the nav links */
+  transform: translate(-50%, -50%);
   color: #feef00;
   font-family: 'Cyberpunk', sans-serif;
   letter-spacing: 0.2em;
