@@ -165,7 +165,7 @@ a:hover {
 }
 
 .content-container {
-  background-color: rgb(0, 255, 200); /* White background for the container */
+  background-color: rgba(255, 186, 159, 0.918);
   padding: 2rem;           /* Padding inside the container */
   margin: 2rem auto;       /* Center the container and add space above and below */
   max-width: 80%;          /* Limit the container's width for better readability */
