@@ -177,9 +177,17 @@ a:hover {
   display: flex;
   justify-content: space-between;
   gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
 }
 
 .image-container img {
-  width: 48%;
+  width: 32%;
   border-radius: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .image-container img {
+    width: 100%;
+  }
 }
