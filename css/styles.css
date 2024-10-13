@@ -10,7 +10,7 @@ body {
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  background: url('../images/background.gif') no-repeat center center fixed; /* Default background for non-resume pages */
+  background: url('../images/background01.gif') no-repeat center center fixed; /* Default background for non-resume pages */
   background-size: cover;
   text-shadow: 0 0 8px rgba(0, 0, 0, 0.8); /* Adds a black halo effect behind the yellow text */
 }
