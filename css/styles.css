@@ -128,7 +128,7 @@ a:hover {
 
 /* Checkmarks in teal color */
 .checkmark {
-  color: rgb(0, 255, 255); /* Teal color for checkmarks */
+  color: rgb(0, 75, 12); /* Teal color for checkmarks */
 }
 
 .main-title {
@@ -162,4 +162,13 @@ a:hover {
 .video-container iframe {
   display: block;
   margin: 0 auto; /* Center the iframe horizontally */
+}
+
+.content-container {
+  background-color: white; /* White background for the container */
+  padding: 2rem;           /* Padding inside the container */
+  margin: 2rem auto;       /* Center the container and add space above and below */
+  max-width: 80%;          /* Limit the container's width for better readability */
+  border-radius: 0.5rem;   /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add slight shadow for elevation */
 }
