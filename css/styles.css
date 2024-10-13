@@ -5,7 +5,7 @@
 
 body {
   font-family: 'Arial', sans-serif;
-  color: #fcd600;
+  color: black; /* Updated text color to black */
   line-height: 1.6;
   margin: 0;
   padding: 0;
@@ -67,11 +67,12 @@ body {
   white-space: nowrap; /* Ensure the title stays on a single line */
 }
 
-section {
+/* Content section with off-white background */
+.content-section {
+  background-color: rgba(255, 255, 255, 0.8); /* Off-white background */
   padding: 2rem;
   margin: 2rem auto;
   max-width: 80%;
-  background-color: transparent;
   border-radius: 0.5rem;
 }
 
@@ -107,6 +108,16 @@ a:hover {
   font-size: clamp(1.5rem, 3vw, 2.5rem); /* Reduced max size to avoid overflow */
   color: #feef00;
   text-shadow: #46dffb 1px 1px, #45aefb 2px 2px;
+}
+
+/* Checkmarks in teal color */
+.checkmark {
+  color: teal; /* Teal color for checkmarks */
+}
+
+.main-title {
+  font-style: italic; /* Italics for section titles */
+  color: black; /* Black color for titles */
 }
 
 @media (max-width: 1000px) {
