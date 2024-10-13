@@ -76,9 +76,10 @@ body.resume-background {
 }
 
 .main-content-center {
-  text-align: center; /* Centers the text */
-  max-width: 800px; /* Restrict the width for better readability */
-  margin: 20px auto; /* Centers the section horizontally and adds some margin above and below */
+  text-align: left;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
 }
 
 /* Resume container with white background */
