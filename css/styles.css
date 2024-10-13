@@ -9,7 +9,10 @@ body {
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  background: url('../images/background.gif') no-repeat center center fixed;
+}
+
+body.resume-background {
+  background: url('../images/clouds.gif') no-repeat center center fixed; /* Apply clouds.gif background */
   background-size: cover;
 }
 
