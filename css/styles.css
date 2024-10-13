@@ -5,11 +5,12 @@
 
 body {
   font-family: 'Arial', sans-serif;
-  color: #ff9900;
+  color: #000000;
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  background-color: #ffffff; /* Set the main background color to white */
+  background: url('../images/background.gif') no-repeat center center fixed; /* Set background image */
+  background-size: cover; /* Ensure the background image covers the entire webpage */
 }
 
 ul {
@@ -18,7 +19,7 @@ ul {
   margin: 0;
   display: flex;
   justify-content: center;
-  background-color: #333; /* Keep the navigation bar dark for contrast */
+  background-color: rgba(0, 0, 0, 0.7); /* Transparent black for better readability */
 }
 
 ul li {
@@ -33,7 +34,7 @@ ul li a {
 }
 
 ul li a:hover {
-  color: #007BFF;
+  color: #ffe600;
   font-weight: bold;
 }
 
@@ -41,12 +42,13 @@ h1 {
   color: #feef00;
   text-align: center;
   margin-bottom: 1.5rem;
-  font-family: 'Cyberpunk', sans-serif; /* Cyberpunk font for the title */
+  font-family: 'Cyberpunk', sans-serif;
+  letter-spacing: 0.2em; /* Adjust spacing between letters */
 }
 
 h2.main-title {
-  color: #ff9800; /* Choose a unique color for main titles */
-  font-family: 'Georgia', serif; /* Use a unique, readable font */
+  color: #ff9800;
+  font-family: 'Georgia', serif;
   text-align: center;
   margin-bottom: 1rem;
 }
@@ -55,7 +57,7 @@ section {
   padding: 2rem;
   margin: 2rem auto;
   max-width: 80%;
-  background-color: transparent; /* Transparent background for sections */
+  background-color: transparent;
   border-radius: 0.5rem;
 }
 
@@ -92,6 +94,11 @@ a:hover {
   font-size: 3em;
   color: #feef00;
   text-shadow: #46dffb 1px 1px, #45aefb 2px 2px;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
 }
 
 @media (max-width: 1000px) {
