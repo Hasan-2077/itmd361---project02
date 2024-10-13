@@ -63,7 +63,7 @@ body {
   letter-spacing: 0.1em;
   text-align: center;
   z-index: 2;
-  font-size: clamp(2rem, 5vw, 4rem); /* Font size scales between 2rem and 4rem */
+  font-size: clamp(1.5rem, 3vw, 2.5rem); /* Smaller, more controlled size */
   white-space: nowrap; /* Ensure the title stays on a single line */
 }
 
@@ -104,7 +104,7 @@ a:hover {
 .cyberpunk-font-og {
   font-family: 'Cyberpunk' !important;
   text-transform: uppercase;
-  font-size: clamp(2rem, 5vw, 4rem); /* Font size scales between 2rem and 4rem */
+  font-size: clamp(1.5rem, 3vw, 2.5rem); /* Reduced max size to avoid overflow */
   color: #feef00;
   text-shadow: #46dffb 1px 1px, #45aefb 2px 2px;
 }
