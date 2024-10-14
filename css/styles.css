@@ -193,5 +193,5 @@ a:hover {
 }
 
 .light-blue-text {
-  color: #ADD8E6; /* Light blue color */
+  color: #ADD8E6 !important; /* Light blue color */
 }
