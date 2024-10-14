@@ -6,7 +6,7 @@
 /* General body styling for index.html and video_game_photography.html */
 body {
   font-family: 'Arial', sans-serif;
-  color: rgb(0, 140, 255); /* Change text color to yellow */
+  color: rgb(195, 0, 255); /* Change text color */
   line-height: 1.6;
   margin: 0;
   padding: 0;
@@ -80,6 +80,30 @@ body.resume-background {
   max-width: 800px;
   margin: 20px auto;
   padding: 20px;
+}
+
+/* Changes for the main content area of index.html specifically */
+.main-content {
+  text-align: center; /* Center the content */
+  margin-top: 2rem;
+}
+
+/* Style for the image in the main content of index.html */
+.main-content img {
+  max-width: 80%; /* Ensure the image is responsive */
+  display: block;
+  margin: 0 auto 2rem; /* Center the image and add space below */
+}
+
+/* Pink background for the text container on the main page */
+.text-container {
+  background-color: rgba(255, 209, 208, 0.918); /* Matching pink background */
+  padding: 2rem;
+  margin: 0 auto; /* Center the container */
+  max-width: 80%;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add slight shadow for elevation */
+  text-align: justify;
 }
 
 /* Resume container with white background */
