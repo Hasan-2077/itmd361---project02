@@ -196,8 +196,3 @@ a:hover {
   color: #00abe4 !important; /* Light blue color */
 }
 
-.content-section p.light-blue-text:last-of-type {
-  margin-left: 0;
-  padding-left: 2rem;
-}
-
