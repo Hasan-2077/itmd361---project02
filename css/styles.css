@@ -165,7 +165,7 @@ a:hover {
 }
 
 .content-container {
-  background-color: rgba(255, 186, 159, 0.918);
+  background-color: rgba(255, 209, 208, 0.918);
   padding: 2rem;           /* Padding inside the container */
   margin: 2rem auto;       /* Center the container and add space above and below */
   max-width: 80%;          /* Limit the container's width for better readability */
@@ -193,7 +193,7 @@ a:hover {
 }
 
 .light-blue-text {
-  color: #30cbff !important; /* Light blue color */
+  color: #00abe4 !important; /* Light blue color */
 }
 
 .content-section p.light-blue-text:last-of-type {
