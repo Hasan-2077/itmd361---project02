@@ -240,7 +240,7 @@ a:hover {
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
-  gap: 15px;
+  gap: 20px;
   margin-top: 20px;
 }
 
@@ -251,7 +251,7 @@ a:hover {
 }
 
 .album-item img {
-  width: 50px;
+  width: 70px;
   height: auto;
   border-radius: 8px;
   margin-top: 10px;
