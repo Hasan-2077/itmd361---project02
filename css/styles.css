@@ -226,7 +226,7 @@ a:hover {
 
 .album-item img {
   width: 100%;
-  max-width: 115px;
+  max-width: 100px;
   height: auto;
   border-radius: 8px;
   margin-top: 10px;
