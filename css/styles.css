@@ -136,6 +136,15 @@ a:hover {
   color: black; /* Black color for titles */
 }
 
+/* Styling for video title */
+.video-title {
+  font-family: 'Arial', sans-serif;
+  font-size: 1.8rem;
+  text-align: center;
+  color: #feef00;
+  margin-bottom: 10px; /* Space between title and video */
+}
+
 @media (max-width: 1000px) {
   .nav-top {
     flex-direction: column;
@@ -195,4 +204,3 @@ a:hover {
 .light-blue-text {
   color: #00abe4 !important; /* Light blue color */
 }
-
