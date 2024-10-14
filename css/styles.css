@@ -152,7 +152,7 @@ a:hover {
 }
 
 .content-section p {
-  margin-left: 20px; /* Add space on the left to shift text to the right */
+  margin-left: 0; /* Add space on the left to shift text to the right */
 }
 
 .video-container {
