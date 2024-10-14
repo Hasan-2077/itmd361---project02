@@ -190,7 +190,6 @@ a:hover {
   padding-right: 1.5rem; /* Add right padding for consistency */
 }
 
-/* Styling for the new pink box */
 .additional-info {
   background-color: rgba(255, 209, 208, 0.918); /* Matching pink background */
   padding: 2rem;
@@ -201,6 +200,7 @@ a:hover {
   text-align: justify;
 }
 
+/* Centered and underlined title */
 .additional-info h3 {
   text-align: center;
   text-decoration: underline;
@@ -209,6 +209,7 @@ a:hover {
   margin-bottom: 1.5rem;
 }
 
+/* Bullet points inside the pink box */
 .additional-info ul {
   list-style-type: disc;
   padding-left: 1.5rem;
