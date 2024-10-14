@@ -246,14 +246,12 @@ a:hover {
 
 .album-item {
   text-align: center;
-  width: 22%;
-  width: 18%;
+  width: 12%;
   margin-bottom: 20px;
 }
 
 .album-item img {
-  width: 100%;
-  max-width: 50px;
+  width: 80%;
   height: auto;
   border-radius: 8px;
   margin-top: 10px;
