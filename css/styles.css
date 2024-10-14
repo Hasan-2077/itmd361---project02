@@ -3,21 +3,19 @@
   src: url('../fonts/Cyberpunk.otf') format('opentype');
 }
 
-/* General body styling for index.html and video_game_photography.html */
 body {
   font-family: 'Arial', sans-serif;
-  color: rgb(195, 0, 255); /* Change text color */
+  color: rgb(195, 0, 255);
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  background: url('../images/background01.gif') no-repeat center center fixed; /* Default background for non-resume pages */
+  background: url('../images/background01.gif') no-repeat center center fixed;
   background-size: cover;
-  text-shadow: 0 0 8px rgba(0, 0, 0, 0.8); /* Adds a black halo effect behind the yellow text */
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
 }
 
-/* Specific background for resume.html only */
 body.resume-background {
-  background: url('../images/clouds.gif') no-repeat center center fixed; /* Apply clouds.gif background */
+  background: url('../images/clouds.gif') no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -41,7 +39,7 @@ body.resume-background {
   margin: 0;
   padding: 10px 0;
   list-style: none;
-  background-color: rgba(255, 251, 0, 0.5); /* Semi-transparent background */
+  background-color: rgba(255, 251, 0, 0.5);
 }
 
 .nav-top li {
@@ -60,7 +58,6 @@ body.resume-background {
   font-weight: bold;
 }
 
-/* Center the title in the middle of the banner below the nav links */
 .banner-title {
   position: absolute;
   top: 50%;
@@ -71,7 +68,7 @@ body.resume-background {
   letter-spacing: 0.1em;
   text-align: center;
   z-index: 2;
-  font-size: clamp(1.5rem, 3vw, 2.5rem); /* Smaller, more controlled size */
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
   white-space: nowrap;
 }
 
@@ -82,38 +79,34 @@ body.resume-background {
   padding: 20px;
 }
 
-/* Changes for the main content area of index.html specifically */
 .main-content {
-  text-align: center; /* Center the content */
+  text-align: center;
   margin-top: 2rem;
 }
 
-/* Style for the image in the main content of index.html */
 .main-content img {
-  max-width: 80%; /* Ensure the image is responsive */
+  max-width: 80%;
   display: block;
-  margin: 0 auto 2rem; /* Center the image and add space below */
+  margin: 0 auto 2rem;
 }
 
-/* Pink background for the text container on the main page */
 .text-container {
-  background-color: rgba(255, 209, 208, 0.918); /* Matching pink background */
+  background-color: rgba(255, 209, 208, 0.918);
   padding: 2rem;
-  margin: 0 auto; /* Center the container */
+  margin: 0 auto;
   max-width: 80%;
   border-radius: 0.5rem;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add slight shadow for elevation */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: justify;
 }
 
-/* Resume container with white background */
 .resume-container {
-  background-color: white; /* Plain white background for the resume section */
+  background-color: white;
   padding: 2rem;
   margin: 2rem auto;
   max-width: 80%;
   border-radius: 0.5rem;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add slight shadow for elevation */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .fixed-layout {
@@ -140,34 +133,31 @@ a:hover {
   color: #0056b3;
 }
 
-/* Cyberpunk font styles */
 .cyberpunk-font,
 .cyberpunk-font-og {
   font-family: 'Cyberpunk' !important;
   text-transform: uppercase;
-  font-size: clamp(1.5rem, 3vw, 2.5rem); /* Reduced max size to avoid overflow */
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
   color: #feef00;
   text-shadow: #46dffb 1px 1px, #45aefb 2px 2px;
 }
 
-/* Checkmarks in teal color */
 .checkmark {
-  color: rgb(0, 75, 12); /* Teal color for checkmarks */
+  color: rgb(0, 75, 12);
 }
 
 .main-title {
-  font-style: italic; /* Italics for section titles */
-  color: black; /* Black color for titles */
+  font-style: italic;
+  color: black;
 }
 
-/* Styling for video title */
 .video-title {
   font-family: 'Arial', sans-serif;
   font-size: 1.8rem;
   text-align: center;
   color: #feef00;
-  margin-bottom: 10px; /* Space between title and video */
-  display: block;      /* Ensure it behaves like a block-level element */
+  margin-bottom: 10px;
+  display: block;
   width: 100%;
   text-decoration: underline;
 }
@@ -192,31 +182,16 @@ a:hover {
 }
 
 .video-container {
-  text-align: center; /* Ensure the container is centered */
+  text-align: center;
 }
 
 .video-container iframe {
   display: block;
-  margin: 0 auto; /* Center the iframe horizontally */
+  margin: 0 auto;
 }
 
 .content-container {
   background-color: rgba(255, 209, 208, 0.918);
-  padding: 2rem;           /* Padding inside the container */
-  margin: 2rem auto;       /* Center the container and add space above and below */
-  max-width: 80%;          /* Limit the container's width for better readability */
-  border-radius: 0.5rem;   /* Rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add slight shadow for elevation */
-  text-align: justify;
-}
-
-.content-container p {
-  padding-left: 1.5rem;  /* Add left padding to align the text better */
-  padding-right: 1.5rem; /* Add right padding for consistency */
-}
-
-.additional-info {
-  background-color: rgba(255, 209, 208, 0.918); /* Matching pink background */
   padding: 2rem;
   margin: 2rem auto;
   max-width: 80%;
@@ -225,7 +200,21 @@ a:hover {
   text-align: justify;
 }
 
-/* Centered and underlined title */
+.content-container p {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.additional-info {
+  background-color: rgba(255, 209, 208, 0.918);
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 80%;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: justify;
+}
+
 .additional-info h3 {
   text-align: center;
   text-decoration: underline;
@@ -234,7 +223,6 @@ a:hover {
   margin-bottom: 1.5rem;
 }
 
-/* Album items container inside the pink box */
 .album-info {
   display: flex;
   flex-wrap: nowrap;
@@ -277,25 +265,25 @@ a:hover {
 }
 
 .light-blue-text {
-  color: #0084ff !important; /* Light blue color */
+  color: #0084ff !important;
 }
 
 .new-statement {
   text-align: justify;
   margin: 1.5rem auto;
-  padding-left: 1.5rem;  /* Ensure left padding */
-  padding-right: 1.5rem; /* Ensure right padding */
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 @media (max-width: 768px) {
   .album-info {
-    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    flex-wrap: wrap;
   }
 
 }
 
 .album-item {
-  width: 45%; /* Make the items 2 in a row on smaller screens */
+  width: 45%;
   margin-bottom: 20px;
 }
 
@@ -326,6 +314,6 @@ a:hover {
 
 @media (max-width: 768px) {
   .album-item audio {
-    width: 100%; /* Full width on smaller screens */
+    width: 100%;
   }
 }
