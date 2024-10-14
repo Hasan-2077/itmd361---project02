@@ -227,7 +227,7 @@ a:hover {
 
 .album-item img {
   width: 100%;
-  max-width: 80px; /* Reduced size for album images */
+  max-width: 120px; /* Increased image size by 50% */
   height: auto;
   border-radius: 8px;
   margin-top: 10px;
@@ -264,7 +264,7 @@ a:hover {
 }
 
 .album-item img {
-  max-width: 80px; /* Reduced image size for smaller screens */
+  max-width: 120px; /* Increased image size by 50% */
 }
 
 .album-item audio {
