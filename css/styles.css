@@ -221,7 +221,7 @@ a:hover {
 
 .album-item {
   text-align: center;
-  width: 22%;
+  width: 18%;
   margin-bottom: 20px;
 }
 
@@ -294,8 +294,8 @@ a:hover {
 
 .audio-title {
   font-weight: bold;
-  font-size: 14px;
-  color: #0084ff;
+  font-size: 12px;
+  color: #9d00db;
 }
 
 @media (max-width: 768px) {
