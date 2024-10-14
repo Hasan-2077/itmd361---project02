@@ -277,3 +277,8 @@ a:hover {
 .album-item img {
   max-width: 100%;
 }
+
+.album-item audio {
+  margin-top: 10px;
+  width: 100%;
+}
