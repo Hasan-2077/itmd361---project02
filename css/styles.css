@@ -6,7 +6,7 @@
 /* General body styling for index.html and video_game_photography.html */
 body {
   font-family: 'Arial', sans-serif;
-  color: yellow; /* Change text color to yellow */
+  color: rgb(0, 183, 255); /* Change text color to yellow */
   line-height: 1.6;
   margin: 0;
   padding: 0;
