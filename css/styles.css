@@ -79,7 +79,7 @@ body.resume-background {
   text-align: left;
   max-width: 800px;
   margin: 20px auto;
-  padding: 0 20px;
+  padding: 20px;
 }
 
 /* Resume container with white background */
@@ -152,7 +152,7 @@ a:hover {
 }
 
 .content-section p {
-  margin-left: 0; /* Add space on the left to shift text to the right */
+  margin: 2rem auto;
 }
 
 .video-container {
