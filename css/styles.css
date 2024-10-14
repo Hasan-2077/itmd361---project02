@@ -226,7 +226,7 @@ a:hover {
 
 .album-item img {
   width: 100%;
-  max-width: 100px;
+  max-width: 150px;
   height: auto;
   border-radius: 8px;
   margin-top: 10px;
@@ -272,4 +272,8 @@ a:hover {
 .album-item {
   width: 45%; /* Make the items 2 in a row on smaller screens */
   margin-bottom: 20px;
+}
+
+.album-item img {
+  max-width: 100%;
 }
