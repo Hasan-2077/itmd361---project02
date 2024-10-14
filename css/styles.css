@@ -220,12 +220,13 @@ a:hover {
 
 .album-item {
   text-align: center;
-  width: 48%;
+  width: 22%;
+  margin-bottom: 20px;
 }
 
 .album-item img {
   width: 100%;
-  max-width: 250px;
+  max-width: 100px;
   height: auto;
   border-radius: 8px;
   margin-top: 10px;
@@ -259,4 +260,16 @@ a:hover {
   margin: 1.5rem auto;
   padding-left: 1.5rem;  /* Ensure left padding */
   padding-right: 1.5rem; /* Ensure right padding */
+}
+
+@media (max-width: 768px) {
+  .album-info {
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  }
+
+}
+
+.album-item {
+  width: 45%; /* Make the items 2 in a row on smaller screens */
+  margin-bottom: 20px;
 }
